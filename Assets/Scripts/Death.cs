@@ -10,15 +10,15 @@ public class Death : MonoBehaviour
     {
         Debug.Log("Were live");
     }
-    void OnCollisionEnter(Collision collisionInfo)
+ 
+
+    private void OnTriggerEnter(Collider other)
     {
-         
-        if (collisionInfo.collider.tag == "Dead")
+        if (other.gameObject.tag == "Dead")
         {
 
             print("You're dead sucker !!!!");
-           // gameManager.Restart();
+            // gameManager.Restart();
         }
-
-    }   
+    }
 }
