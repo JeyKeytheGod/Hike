@@ -8819,6 +8819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6104973455227178585, guid: a7cc2e45b9d37c24b8ce84ce85223c02, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4680846216816552843, guid: a7cc2e45b9d37c24b8ce84ce85223c02, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
@@ -8875,7 +8879,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6104973455227178585, guid: a7cc2e45b9d37c24b8ce84ce85223c02, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7cc2e45b9d37c24b8ce84ce85223c02, type: 3}
 --- !u!1001 &247460953
 PrefabInstance:
@@ -48986,6 +48991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc3913f9604e91a4cbfe04fb5641e81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   walkingSpeed: 7
   runningSpeed: 11.5
   jumpSpeed: 8
