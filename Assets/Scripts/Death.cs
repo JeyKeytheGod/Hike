@@ -8,7 +8,7 @@ public class Death : MonoBehaviour
     public GameManager1 gameManager;
     public GameObject deathScreen;
     public GameObject gameUI;
-    public Text collScore;
+    
 
     private void Start()
     {

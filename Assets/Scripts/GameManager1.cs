@@ -12,6 +12,10 @@ public class GameManager1 : MonoBehaviour
 
     public void CompleteLVL()
     {
+        // Lock cursor
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+
         Debug.Log("LEVEL FINISHED !!!");
         winScreen.SetActive(true);
     }
