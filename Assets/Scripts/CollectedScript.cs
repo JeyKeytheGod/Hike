@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class CollectedScript : MonoBehaviour
 {
 
-    public MainMenu mainMenu;
+    public GameObject ending;
+
     public static int collValue = 0;
     Text collectable;
 
@@ -20,6 +21,14 @@ public class CollectedScript : MonoBehaviour
     void Update()
     {
         collectable.text = "Collected " + collValue + " /10";
+
+        if (
+            collValue >= 10)
+        {
+            print("Finishline");
+            ending.SetActive(true);
+        }
+
     }
 
     void OnLevelWasLoaded()

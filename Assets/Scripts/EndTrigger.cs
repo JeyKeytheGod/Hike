@@ -6,7 +6,7 @@ using UnityEngine;
 public class EndTrigger : MonoBehaviour
 {
 
-    public GameManager1 gameManager;
+    public GameManager1 gameManager;  
 
     private void OnTriggerEnter()
     {

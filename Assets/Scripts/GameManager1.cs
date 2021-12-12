@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager1 : MonoBehaviour
 {
+    public GameObject winScreen;
     bool gameEnd = false;
 
     public float restartDelay = 1f;
@@ -12,6 +13,7 @@ public class GameManager1 : MonoBehaviour
     public void CompleteLVL()
     {
         Debug.Log("LEVEL FINISHED !!!");
+        winScreen.SetActive(true);
     }
 
     public void EndGame()
@@ -20,7 +22,6 @@ public class GameManager1 : MonoBehaviour
         {
             gameEnd = true;
             Debug.Log("Player dead !!!");
-            Invoke("Restart", restartDelay);
         }
     }
 

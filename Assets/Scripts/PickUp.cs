@@ -36,7 +36,6 @@ public class PickUp : MonoBehaviour
     {
         if (other.gameObject.name.Equals("PlayerCharacter"))
         {
-            pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
         }
     }
@@ -45,6 +44,7 @@ public class PickUp : MonoBehaviour
     {
         CollectedScript.collValue++;
         Destroy(gameObject);
+        pickUpText.gameObject.SetActive(false);
     }
 
 }
