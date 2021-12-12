@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e5f5264b9cf31f14ab8896a5e011a475
+  - enabled: 1
+    path: Assets/Scenes/The Hike Lvl 1.unity
+    guid: 3fe958d5a36b6a24dad314f90a32925e
+  - enabled: 1
+    path: Assets/Scenes/Lvl2_Desert.unity
+    guid: 9d723138d7f287e47a3490ead1f18186
+  - enabled: 1
+    path: Assets/Scenes/Lvl3_forest.unity
+    guid: 4690d51ea9ee93642b9ab24f5a314e9e
   m_configObjects: {}

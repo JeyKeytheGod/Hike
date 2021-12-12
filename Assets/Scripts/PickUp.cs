@@ -29,6 +29,7 @@ public class PickUp : MonoBehaviour
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
         }
+       
     }
 
     private void OnTriggerExit(Collider other)
@@ -42,6 +43,7 @@ public class PickUp : MonoBehaviour
 
     void PickedUp()
     {
+        CollectedScript.collValue++;
         Destroy(gameObject);
     }
 

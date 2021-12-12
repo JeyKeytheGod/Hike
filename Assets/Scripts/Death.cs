@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Death : MonoBehaviour
 {
     public GameManager1 gameManager;
+    public GameObject deathScreen;
+    public GameObject gameUI;
+    public Text collScore;
 
     private void Start()
     {
@@ -16,9 +20,14 @@ public class Death : MonoBehaviour
     {
         if (other.gameObject.tag == "Dead")
         {
+            // Lock cursor
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
 
             print("You're dead sucker !!!!");
-            // gameManager.Restart();
+            gameUI.SetActive(false);
+            deathScreen.SetActive(true);
+
         }
     }
 }
