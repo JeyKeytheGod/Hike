@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Climbable : MonoBehaviour
 {
 
     private PlayerManager climber;
 
+
+
     private void OnTriggerEnter(Collider other)
     {
         climber = other.GetComponent<PlayerManager>();
+
 
     }
 

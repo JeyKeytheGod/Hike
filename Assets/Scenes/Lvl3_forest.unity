@@ -2193,6 +2193,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f5158e1a7ccdb245b90da0a6770cd51, type: 3}
+--- !u!114 &97668873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6023677828352113414, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+  m_PrefabInstance: {fileID: 902801098}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &99680194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16399,6 +16410,8 @@ GameObject:
   - component: {fileID: 777412861}
   - component: {fileID: 777412860}
   - component: {fileID: 777412859}
+  - component: {fileID: 777412863}
+  - component: {fileID: 777412862}
   m_Layer: 0
   m_Name: Rock_Cliff_4_LOD0 (1)
   m_TagString: Untagged
@@ -16483,6 +16496,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777412857}
   m_Mesh: {fileID: -6652221633111327849, guid: dda3c1d4a1ed45d4286cc957c3de7cfb, type: 3}
+--- !u!65 &777412862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777412857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.277554, y: 6.876898, z: 35.262905}
+  m_Center: {x: 0.07987505, y: 3.4561415, z: 11.656098}
+--- !u!114 &777412863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777412857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3d7a10029c04a49a60b11569be0e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  climbText: {fileID: 97668873}
 --- !u!4 &785285391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8233102405603228788, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
@@ -18408,6 +18447,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4024809725436730331, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023677828352113414, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_Text
+      value: Press "Shift" to climb
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023677828352113414, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023677828352113414, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8157332472405118683, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -18511,6 +18566,10 @@ PrefabInstance:
     - target: {fileID: 8157332472511699484, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -189.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157332472708131380, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8157332473445208287, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
       propertyPath: m_LocalScale.x
@@ -41685,6 +41744,8 @@ GameObject:
   - component: {fileID: 2014575066}
   - component: {fileID: 2014575065}
   - component: {fileID: 2014575064}
+  - component: {fileID: 2014575068}
+  - component: {fileID: 2014575067}
   m_Layer: 0
   m_Name: Rock_Cliff_4_LOD0 (1)
   m_TagString: Untagged
@@ -41770,6 +41831,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014575062}
   m_Mesh: {fileID: -6652221633111327849, guid: dda3c1d4a1ed45d4286cc957c3de7cfb, type: 3}
+--- !u!114 &2014575067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014575062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3d7a10029c04a49a60b11569be0e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  climbText: {fileID: 97668873}
+--- !u!65 &2014575068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014575062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.277555, y: 6.876897, z: 23.646164}
+  m_Center: {x: 0.07987587, y: 3.4561422, z: -6.5462446}
 --- !u!4 &2015698958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3984318790532302945, guid: c75cbb86dab2e944cb2ab0238d1b85a0, type: 3}
