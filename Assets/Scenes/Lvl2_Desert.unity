@@ -211,7 +211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7211828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -531,7 +531,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.27771878
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -647,7 +647,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -963,7 +963,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -6155,7 +6155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 103229886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -6475,7 +6475,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3505392
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -6591,7 +6591,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6907,7 +6907,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -13189,7 +13189,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 311367324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -13509,7 +13509,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4636881
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -13625,7 +13625,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -13941,7 +13941,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -20544,7 +20544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 500807600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -20864,7 +20864,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4474535
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -20980,7 +20980,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -21296,7 +21296,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -26058,7 +26058,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 529358011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -26378,7 +26378,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.22067626
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -26494,7 +26494,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -26810,7 +26810,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -33071,7 +33071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 727915698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -33391,7 +33391,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.37743315
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -33507,7 +33507,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -33823,7 +33823,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -38335,7 +38335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 750107105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -38655,7 +38655,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.35856944
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -38771,7 +38771,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -39087,7 +39087,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -44688,7 +44688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 937697447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -45008,7 +45008,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.28757858
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -45124,7 +45124,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -45440,7 +45440,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -50762,7 +50762,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1074952284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -51082,7 +51082,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -51198,7 +51198,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -51514,7 +51514,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -56219,7 +56219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1113628372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -56539,7 +56539,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.44516608
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -56655,7 +56655,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -56971,7 +56971,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -63546,7 +63546,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1382416002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -63866,7 +63866,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.37524766
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -63982,7 +63982,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -64298,7 +64298,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -70575,7 +70575,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1590762816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -70895,7 +70895,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.31688216
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -71011,7 +71011,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -71327,7 +71327,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -78578,7 +78578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919178386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -78898,7 +78898,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.27848533
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -79014,7 +79014,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -79330,7 +79330,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -84420,7 +84420,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1974873839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -84740,7 +84740,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.27637458
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -84856,7 +84856,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -85172,7 +85172,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -89574,7 +89574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005650839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077a2242e41054541b9ccf5f1e35afca, type: 3}
+  m_Script: {fileID: 11500000, guid: 382eff3271133f349a4c8e33604465df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 1624880106}
@@ -89894,7 +89894,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.30818886
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -90010,7 +90010,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -90326,7 +90326,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 30
     size3D: 0
     rotation3D: 0
     gravityModifier:
