@@ -76648,6 +76648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4024809725436730331, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8157332472405118683, guid: 9a14eca3e7740de4faf7aefbc7eda1d8, type: 3}
       propertyPath: m_Name
       value: GameUILVL1

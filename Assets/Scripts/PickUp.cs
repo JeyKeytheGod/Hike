@@ -42,7 +42,7 @@ public class PickUp : MonoBehaviour
 
     void PickedUp()
     {
-        CollectedEndGateLVL3.collValue++;
+        CollectedScript.collValue++;
         Destroy(gameObject);
         pickUpText.gameObject.SetActive(false);
     }
