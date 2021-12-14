@@ -16336,6 +16336,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 854261987}
     m_Modifications:
+    - target: {fileID: -7012339327965243248, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4477820920082311913, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -16396,9 +16400,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2197752419454617136, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
       propertyPath: m_Name
       value: Fir Tree 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -408257908198887506, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312619683003750104, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696283151447306777, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 066aeddbdbe9bdb47ab86ff660594513, type: 3}
@@ -23973,6 +23993,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 854261987}
     m_Modifications:
+    - target: {fileID: -8204703363000462653, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8066219754761005605, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6463501329888307363, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
       propertyPath: m_RootOrder
       value: 276
@@ -24029,6 +24061,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 823cb446423dd7747b7454d5cf133e75, type: 2}
+    - target: {fileID: 8694494847454631113, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a81c479bd6ba6498c2e129b5e7cabf, type: 3}
 --- !u!4 &1114716270 stripped
