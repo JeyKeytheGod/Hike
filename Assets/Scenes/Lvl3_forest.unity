@@ -15481,7 +15481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 443464926588526167, guid: 2a7349e3e8faed34f80666ab09f2cda4, type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 443464926588526167, guid: 2a7349e3e8faed34f80666ab09f2cda4, type: 3}
       propertyPath: InitialModule.maxNumParticles
@@ -25512,6 +25512,10 @@ PrefabInstance:
     - target: {fileID: 324187016506580365, guid: 2a7349e3e8faed34f80666ab09f2cda4, type: 3}
       propertyPath: m_Center.x
       value: 0.20499516
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140882246766692839, guid: 2a7349e3e8faed34f80666ab09f2cda4, type: 3}
+      propertyPath: MaxDistance
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6140882246766692839, guid: 2a7349e3e8faed34f80666ab09f2cda4, type: 3}
       propertyPath: BypassEffects
